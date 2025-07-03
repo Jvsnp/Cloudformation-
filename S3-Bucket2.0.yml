@@ -1,0 +1,10 @@
+#cloudformationTemplate Version
+#Description
+
+AWSTemplateFormatVersion: "2010-09-09"
+Description: 'Cloudformation template for S3 bucket 2.0'
+Resources:
+ S3Bucket:
+  Type: 'AWS::S3::Bucket'
+  Properties:
+   BucketName: "jap-s3-bucket-yaml"
